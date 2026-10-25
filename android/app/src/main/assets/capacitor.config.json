@@ -1,0 +1,8 @@
+{
+	"appId": "com.fourucare.lyricshelper",
+	"appName": "가사 도우미",
+	"webDir": "www",
+	"server": {
+		"androidScheme": "https"
+	}
+}

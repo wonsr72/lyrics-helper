@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "가사 도우미",
+  "short_name": "가사도우미",
+  "version": "1.0.0",
+  "description": "가사를 원어민 발음으로 읽고, 반복해서 듣고, 번역하고, 저장하는 도우미. 개발자 4UCare",
+  "icons": {"16":"app/icons/icon-16.png","48":"app/icons/icon-48.png","128":"app/icons/icon-128.png"},
+  "action": {"default_title": "가사 도우미 열기", "default_icon": {"16":"app/icons/icon-16.png","48":"app/icons/icon-48.png"}},
+  "background": {"service_worker": "background.js"},
+  "host_permissions": [
+    "https://translate.googleapis.com/*","https://api.mymemory.translated.net/*","https://lingva.ml/*",
+    "https://en.wiktionary.org/*","https://script.google.com/*","https://script.googleusercontent.com/*"
+  ]
+}
